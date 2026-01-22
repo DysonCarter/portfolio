@@ -1,9 +1,9 @@
 import './App.css'
+import Main from './pages/Main.jsx'
 
 function App() {
-
   return (
-      <div class="text-xl">Hello</div>
+      <Main/>
   )
 }
 
