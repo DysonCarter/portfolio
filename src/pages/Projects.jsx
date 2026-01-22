@@ -1,5 +1,9 @@
 import Project from '../components/Project'
 
+import img8bb from '../assets/8bb.png'
+import imgTranspose from '../assets/transpose.png'
+import imgTraffic from '../assets/traffic.png'
+
 function Projects() {
     return (
         <section id="projects" className="max-w-5xl mx-auto px-6 py-12">
@@ -12,7 +16,7 @@ function Projects() {
             {/* Grid Container: 1 column on mobile, 2 columns on medium screens and up */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <Project 
-                    Image="src/assets/8bb.png"
+                    Image={img8bb}
                     Title="8BB"
                     Href="https://8bb.online"
                     Technologies={["React", "Tailwind", "Tone.js"]}
@@ -20,7 +24,7 @@ function Projects() {
                 />
 
                 <Project 
-                    Image="src/assets/transpose.png"
+                    Image={imgTranspose}
                     Title="TransposeHero"
                     Href="https://transposehero.com"
                     Technologies={["HTML", "CSS", "JavaScript"]}
@@ -28,7 +32,7 @@ function Projects() {
                 />
 
                 <Project 
-                    Image="src/assets/traffic.png"
+                    Image={imgTraffic}
                     Title="Traffic Simulation"
                     Href="https://github.com/DysonCarter/Traffic"
                     Technologies={["Python", "Pygame"]}

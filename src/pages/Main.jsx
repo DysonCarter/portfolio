@@ -1,5 +1,8 @@
 import Project from '../components/Project'
 
+import img8bb from '../assets/8bb.png'
+import imgTranspose from '../assets/transpose.png'
+
 function Main() {
   return (
     <main className="max-w-5xl mx-auto px-6 py-12 text-slate-900">
@@ -26,7 +29,7 @@ function Main() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Project 
-            Image="src/assets/8bb.png"
+            Image={img8bb}
             Title="8BB"
             Href="https://8bb.online"
             Technologies={["React", "Tailwind", "Tone.js"]}
@@ -34,7 +37,7 @@ function Main() {
           />
 
           <Project 
-            Image="src/assets/transpose.png"
+            Image={imgTranspose}
             Title="TransposeHero"
             Href="https://transposehero.com"
             Technologies={["HTML", "CSS", "JavaScript"]}
