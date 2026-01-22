@@ -26,6 +26,14 @@ function Projects() {
                     Technologies={["HTML", "CSS", "JavaScript"]}
                     Description="A guitar utility that instantly maps chord shapes to any key and calculates the correct capo position."
                 />
+
+                <Project 
+                    Image="src/assets/traffic.png"
+                    Title="Traffic Simulation"
+                    Href="https://github.com/DysonCarter/Traffic"
+                    Technologies={["Python", "Pygame"]}
+                    Description="Traffic is a fun project designed to simulate how traffic flows when drivers use different strategies."
+                />
             </div>
         </section>
     )
