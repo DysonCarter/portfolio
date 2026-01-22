@@ -15,6 +15,7 @@ function Projects() {
                     Image="src/assets/8bb.png"
                     Title="8BB"
                     Href="https://8bb.online"
+                    Technologies={["React", "Tailwind", "Tone.js"]}
                     Description="8BB is a tool for creating 8-bit music. Inspired by the tune builder from the Animal Crossing series, 8BB offers an intuitive and playful way to compose your own melodies."
                 />
 
@@ -22,6 +23,7 @@ function Projects() {
                     Image="src/assets/transpose.png"
                     Title="TransposeHero"
                     Href="https://transposehero.com"
+                    Technologies={["HTML", "CSS", "JavaScript"]}
                     Description="A guitar utility that instantly maps chord shapes to any key and calculates the correct capo position."
                 />
             </div>

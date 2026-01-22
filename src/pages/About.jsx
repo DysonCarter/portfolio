@@ -6,11 +6,13 @@ function About() {
       <h1 className="text-3xl font-bold tracking-tight mb-4">About Me</h1>
 
       <p>
-        I'm a Computer Science student at the <span className="font-semibold text-sky-700">University of Akron</span> who enjoys
-        building React apps and interested in game theory and
-        algorithmic problem-solving. I currently work with <span className="font-semibold text-sky-700">DataAnnotation</span>, where
-        I help train, evaluate, and improve AI models by producing high-quality,
-        structured feedback.
+          I'm a Computer Science student at the{" "}
+          <span className="font-semibold text-sky-700">University of Akron</span> who enjoys
+          building. I am interested in game theory, music, and
+          algorithmic problem-solving. I currently work with{" "}
+          <span className="font-semibold text-sky-700">DataAnnotation</span>, where
+          I help train, evaluate, and improve AI models by producing high-quality,
+          structured feedback.
       </p>
       </div>
 
