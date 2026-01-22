@@ -1,8 +1,6 @@
-import Header from "../components/Header.jsx"
-
 function Main(){
     return <>
-    <Header/>
+    Main
     </>
 }
 
