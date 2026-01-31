@@ -1,7 +1,7 @@
 import Project from '../components/Project'
 
 import img8bb from '../assets/8bb.png'
-import imgTranspose from '../assets/transpose.png'
+import yahtzee from '../assets/yahtzee.webp'
 
 function Main() {
   return (
@@ -37,11 +37,11 @@ function Main() {
           />
 
           <Project 
-            Image={imgTranspose}
-            Title="TransposeHero"
-            Href="https://transposehero.com"
-            Technologies={["HTML", "CSS", "JavaScript"]}
-            Description="A guitar utility that instantly maps chord shapes to any key and calculates the correct capo position."
+              Image={yahtzee}
+              Title="Yahtzee Strategy"
+              Href="https://github.com/DysonCarter/YahtzeeStrategy"
+              Technologies={["Python", "Dynamic Programming", "Machine Learning"]}
+              Description="3 Different bots designed to play Yahtzee perfectly, maximizing expected value."
           />
         </div>
       </section>

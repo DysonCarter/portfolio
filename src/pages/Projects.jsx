@@ -3,6 +3,7 @@ import Project from '../components/Project'
 import img8bb from '../assets/8bb.png'
 import imgTranspose from '../assets/transpose.png'
 import imgTraffic from '../assets/traffic.png'
+import yahtzee from '../assets/yahtzee.webp'
 
 function Projects() {
     return (
@@ -21,6 +22,14 @@ function Projects() {
                     Href="https://8bb.online"
                     Technologies={["React", "Tailwind", "Tone.js"]}
                     Description="8BB is a tool for creating 8-bit music. Inspired by the tune builder from the Animal Crossing series, 8BB offers an intuitive and playful way to compose your own melodies."
+                />
+
+                <Project 
+                    Image={yahtzee}
+                    Title="Yahtzee Strategy"
+                    Href="https://github.com/DysonCarter/YahtzeeStrategy"
+                    Technologies={["Python", "Dynamic Programming", "Machine Learning"]}
+                    Description="3 Different bots designed to play Yahtzee perfectly, maximizing expected value."
                 />
 
                 <Project 
